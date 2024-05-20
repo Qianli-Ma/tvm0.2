@@ -36,3 +36,23 @@ We learnt a lot from the following projects when building TVM.
   arithematic simplification and low level lowering. We also learnt and adapted some part of lowering pipeline from Halide.
 - [Loopy](https://github.com/inducer/loopy): use of integer set analysis and its loop transformation primitives.
 - [Theano](https://github.com/Theano/Theano): the design inspiration of symbolic scan operator for recurrence.
+
+For [assignement-2018](https://github.com/Qianli-Ma/assignment2-2018)
+---------------
+Clone using
+```bash
+git clone --recursive https://github.com/Qianli-Ma/tvm0.2.git
+```
+Compile TVM
+```bash
+make -j$(nproc)
+```
+
+Install to python (preferbably in virtual enviroment)
+```bash
+cd python
+python setup.py install
+cd ..
+cd topi
+python setup.py install
+```
