@@ -39,12 +39,17 @@ We learnt a lot from the following projects when building TVM.
 
 For [assignement-2018](https://github.com/Qianli-Ma/assignment2-2018)
 ---------------
+The following instructions are tested for Ubuntu16.04
+
 Clone using
 ```bash
 git clone --recursive https://github.com/Qianli-Ma/tvm0.2.git
 ```
 Compile TVM
 ```bash
+mkdir build
+cd build
+cmake
 make -j$(nproc)
 ```
 
